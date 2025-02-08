@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+#Apresentação{
+    
+    height: 475px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+#Titulo-apresentação{
+    width: 1024px;
+    height: 72px;
+    padding-top: 206px;
+   padding-left: 62px;
+   font-size: 50px;
+}
+#Texto-apresentação{
+    width: 1024px;
+    height: 28px;
+    padding-top: 20px;
+    padding-left: 62px;
+    font-size: 20px
+    
+}
+#menu-info{
+    font-size: 20px;
+   color: #000000 ;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+   padding-top: 50px ;
+   padding-left: 130px;
+  padding-bottom: 60px;
+  background-color: #f3f3f3;
+}
+
+.numero-info{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;   
+}
+
+#foto{
+    width: 510px;
+    height: 605px;
+}
+
+#corpo{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+   margin-top: 150px ;
+   margin-bottom: 75px;
+   
+}
+
+#titulo-corpo{
+    color: #000000;
+
+font-size: 40px;
+padding-left: 35px;
+padding-top: 155px;
+width: 735px;
+padding-bottom: 45px;
+}
+
+#texto-corpo{
+    color: #000000c9;
+    font-size: 24px;
+    padding-left: 35px;
+    width: 735px;
+
+}
+ 
+#formulario{
+    background-color: #303030;
+    text-align: center;
+    height: 450px;
+    padding-bottom: 40px;
+}
+
+#titulo-formulario{
+    color: #FFFFFF;
+    font-size: 32px;
+    padding-top: 75px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 500px ;
+    height: 50px;
+    background-color: #FFFFFF;
+    margin-top:15px;
+    border: 0px; 
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'raleway' ;
+    color: #00000041;
+    font-size: 20px;
+    
+    
+}
+
+#email{
+    margin-top: 40px;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 275px;
+    height: 75px;
+    border: 0px;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'raleway' ;
+    font-weight: bolder;
+   
+}
+
+button:hover{
+    transform: translateY(-7px);
+    background-color:#cc8329 ;
+    transition-duration: 0.2s;
+    box-shadow: 0px 15px 20px #040c0f80;
+}
+
